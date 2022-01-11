@@ -1,0 +1,14 @@
+﻿
+/*main body styling*/
+body {
+    background-color: black;
+    color: white;
+}
+
+/*styling for the form to make it easy to find*/
+.form {
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}

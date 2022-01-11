@@ -1,0 +1,79 @@
+﻿<!--author - Dan Bell-->
+<!--This is the first webapp I've created in the .NET framework.
+    it has some info about me and a basic grade calculator-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dan Bell IS413</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="jumbotron text-center" style="background-color:darkred;">
+        <h1>All about Dan</h1>
+        <p>Hopefully I get an A in this class!</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Expectations</h2>
+                <p>
+                    In this class I'm really hoping to gain some more valued experience with programming
+                    and web development. I am excited to hear that C# is similar to Java because I know that
+                    both C# and Java are widely used in industry. I hope to attain a good grade (an A) and
+                    show that I am a capable student who belongs in the MISM program.
+                </p>
+            </div>
+               
+            <div class="col-sm-4">
+                <img class="img-fluid" src="img/danGuitar.png" width="250" />
+                <p>Dan playing at The Velour</p>
+            </div>
+               
+            <div class="col-sm-4">
+                <h2>Jobs of Interest</h2>
+                <ul>
+                    <li>Database Manager</li>
+                    <li>Software Engineer</li>
+                    <li>Project Manager</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form">
+                    <h2>Grade Calculator</h2>
+                    <label>Assignments: </label>
+                    <input id="assignment" type="number" />
+                    <label>Group Project: </label>
+                    <input id="project" type="number" />
+                    <label>Quizzes: </label>
+                    <input id="quiz" type="number" /><br/>
+                    <label>Exams: </label>
+                    <input id="exam" type="number" /><br/>
+                    <label>INTEX: </label>
+                    <input id="intex" type="number" />
+                    <button type="submit" id="submit">Get Letter Grade</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquerymin.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
