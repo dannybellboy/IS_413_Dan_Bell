@@ -1,16 +1,29 @@
 ﻿<Properties StartupConfiguration="{7942CD6E-83DA-45A3-B2A8-78B7A91CEC5E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FirstWebApp/wwwroot/index.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstWebApp/Views/Blah/GradeCalc.cshtml">
     <Files>
-      <File FileName="FirstWebApp/Program.cs" Line="1" Column="1" />
-      <File FileName="FirstWebApp/wwwroot/index.html" Line="16" Column="89" />
+      <File FileName="FirstWebApp/Views/Blah/Index.cshtml" Line="15" Column="31" />
+      <File FileName="FirstWebApp/Views/Shared/_Layout.cshtml" Line="16" Column="61" />
+      <File FileName="FirstWebApp/Views/Blah/GradeCalc.cshtml" Line="8" Column="2" />
+      <File FileName="FirstWebApp/Controllers/BlahController.cs" Line="6" Column="26" />
+      <File FileName="FirstWebApp/Models/GradeCalcModel.cs" Line="17" Column="2" />
+      <File FileName="FirstWebApp/Views/_ViewImports.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FirstWebApp" expanded="True">
             <Node name="FirstWebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Blah" expanded="True">
+                  <Node name="GradeCalc.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="index.html" selected="True" />
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>
