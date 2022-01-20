@@ -9,7 +9,7 @@
 
     //calculate the grade
 
-    grade = (assmt * .55) + (proj * .05) + (quiz * .10) + (exam * .20) + (intex * .10)
+    grade = Math.round((assmt * .55) + (proj * .05) + (quiz * .10) + (exam * .20) + (intex * .10), 2)
 
     //run through the grade ranges and determine what the final letter grade is
     //put out an alert that gives the user their final grade
